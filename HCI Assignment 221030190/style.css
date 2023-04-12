@@ -1,0 +1,194 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(wallpaperflare.com_wallpaper\(1\).jpg);
+  }
+  
+  #quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    background-color: #f8f8f8;
+  }
+  h2 {
+    
+    background-color: #f8f8f8;
+  }
+  
+  form {
+    
+    background-color: #f8f8f8;
+  }
+  
+  
+  
+  #question-container {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #question {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  #answer-buttons {
+    list-style: none;
+    margin-top: 2rem;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .answer-button {
+    font-size: 1.8rem;
+    padding: 1.2rem 3rem;
+    margin: 1rem;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .answer-button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .answer-button.correct {
+    background-color: #7bbd54;
+    border-color: #7bbd54;
+    color: #fff;
+  }
+  
+  .answer-button.wrong {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+    color: #fff;
+  }
+  
+  #controls { 
+    font-size: 1.8rem;
+    padding: 1.2rem 3rem;
+    margin: 1rem;
+    background-color: rgb(118, 180, 204);
+    border: 2px solid rgb(45, 115, 196);
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 2rem;
+  }
+  
+  
+  #start-next-button, #end-quiz-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  
+  #start-next-button:hover, #end-quiz-button:hover {
+    background-color: goldenrod;
+  }
+  
+  
+  #next-button {
+    display: none;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  th {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: left;
+    background-color: #333;
+    color: #fff;
+    padding: 1.2rem 3rem;
+  }
+  
+  td {
+    font-size: 1.8rem;
+    text-align: left;
+    padding: 1.2rem 3rem;
+  }
+  
+  .hide {
+    display: none;
+  }
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid #333;
+  }
+  
+  p.display {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    font-style: italic;
+    display: inline-block; /* Display as an inline block element */
+    width: 150px; /* Set a fixed width to make all elements the same size */
+    text-align: center; /* Center the text horizontally */
+    padding: 8px; /* Add some padding around the element */
+    border-radius: 8px; /* Add rounded corners to the element */
+    background-color: #f8f8f8; /* Add a light gray background color */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a slight drop shadow */
+  }
+  
+  p.display.score {
+    font-size: 26px; /* Increase the font size for the score */
+    background-color: #ffc107; /* Add an orange background color to make it stand out */
+    color: #fff; /* Set the text color to white */
+  }
+  #home-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  
+  #home-button:hover {
+    background-color: goldenrod;
+  }
+  #pie-chart {
+    margin: 0 auto;
+    display: block;
+  }
